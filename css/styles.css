@@ -1,0 +1,22 @@
+#search-div {
+    margin: 5vh 0;
+    text-align: center;
+}
+
+input {
+    min-width: 180px;
+    width: 40%;
+}
+
+body {
+    margin: 0 auto;
+}
+
+#photo-gallery-div {
+    margin: 5vh auto;
+    display: grid;
+    justify-items: center;
+    grid-gap: 5vh;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    max-width: 1000px;
+}
