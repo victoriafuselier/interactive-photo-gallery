@@ -1,8 +1,7 @@
 document.getElementById("search-bar").addEventListener("keyup", myFunction);
 
 function myFunction() {
-    let searchBar = document.getElementById("search-bar");
-    let searchInput = searchBar.value.toLowerCase();
+    let searchInput = document.getElementById('search-bar').value.toLowerCase();
     let galleryPhotos = document.getElementsByClassName("gallery-photo");
     
     for (i=0; i<galleryPhotos.length; i++) {
@@ -14,3 +13,4 @@ function myFunction() {
         }
     }
 }
+
